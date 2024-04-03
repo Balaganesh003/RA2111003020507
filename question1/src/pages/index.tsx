@@ -22,7 +22,7 @@ export default function MyComponent() {
   };
 
   return (
-    <div>
+    <div className="flex flex-col space-y-4">
       <button onClick={() => fetchNumbers('p')}>Fetch Prime Numbers</button>
       <button onClick={() => fetchNumbers('f')}>Fetch Fibonacci Numbers</button>
       <button onClick={() => fetchNumbers('e')}>Fetch Even Numbers</button>
